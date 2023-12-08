@@ -1,0 +1,183 @@
+@import url("https://fonts.cdnfonts.com/css/aniron");
+body {
+  font-family: "Aniron";
+}
+
+#ringsTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+#ringsTop .twoRingsTop {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 10px;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ff8000;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  box-shadow: 2px 2px 3px #ff8000, inset 2px 2px 3px #ff8000;
+}
+
+#ringMiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+#ringMiddle #oneRingMiddle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 20px;
+  color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #efd50c;
+  margin-right: 2rem;
+  box-shadow: 2px 2px 3px #efd50c, inset 2px 2px 3px #efd50c;
+}
+
+#ringBottom1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  border: 8.8px;
+  color: white;
+  border-style: solid;
+  border-width: 4.4px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringBottom2 {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  border: 9.6px;
+  color: white;
+  border-style: solid;
+  border-width: 4.8px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringBottom3 {
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  border: 10.4px;
+  color: white;
+  border-style: solid;
+  border-width: 5.2px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringBottom4 {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  border: 11.2px;
+  color: white;
+  border-style: solid;
+  border-width: 5.6px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringBottom5 {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  border: 12px;
+  color: white;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringBottom6 {
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  border: 12.8px;
+  color: white;
+  border-style: solid;
+  border-width: 6.4px;
+  border-color: #000000;
+  box-shadow: 2px 2px 3px #000000, inset 2px 2px 3px #000000;
+}
+
+#ringsBottom {
+  display: block;
+  margin-left: 39%;
+}
+#ringsBottom #allRingsBottom {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+#ringsBottom #allRingsBottom #ringBottom1 {
+  position: absolute;
+  margin-top: 12px;
+}
+#ringsBottom #allRingsBottom #ringBottom2 {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 9.5px;
+}
+#ringsBottom #allRingsBottom #ringBottom3 {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 7px;
+}
+#ringsBottom #allRingsBottom #ringBottom4 {
+  position: absolute;
+  margin-left: 105px;
+  margin-top: 4.5px;
+}
+#ringsBottom #allRingsBottom #ringBottom5 {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 2px;
+}
+#ringsBottom #allRingsBottom #ringBottom6 {
+  position: absolute;
+  margin-left: 200px;
+}
+
+#findIt {
+  display: flex;
+  justify-content: center;
+}
+#findIt p {
+  margin-top: 6rem;
+}
+
+#navbar {
+  background-color: #ff8000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  background-color: #ff8000;
+  margin-top: 3rem;
+}
+footer a {
+  color: white;
+  margin-left: 5rem;
+}/*# sourceMappingURL=styles.css.map */
